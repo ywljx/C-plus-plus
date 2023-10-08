@@ -5,3 +5,58 @@ using namespace std;
 	system("pause");
 	return 0;
 }
+
+
+
+#include <iostream>
+using namespace std;
+	int main()
+{
+		cout << "hello world" << endl;
+	system("pause");
+	return 0;
+}
+
+
+//变量
+#include <iostream>
+using namespace std;
+	int main()
+{ 
+		int a = 10;
+		cout << "a = " << a << endl;
+	system("pause");
+	return 0;
+}
+
+
+//常量
+#include <iostream>
+using namespace std;
+
+//1.宏常量
+#define day 7
+int main()
+{
+	day = 8;     //报错，宏常量不可以修改
+	cout << "一周里总共有: " << day <<"天" << endl;
+	return 0;
+	system("pause");
+}
+
+
+
+#include <iostream>
+using namespace std;
+
+//2.const 修饰的变量
+
+int main()
+{ 
+	const int  day = 7;
+	//day = 8;     //报错，const 修饰的变量也称为常量
+	cout << "一周里总共有: " << day <<"天" << endl;
+	return 0;
+	system("pause");
+}
+
