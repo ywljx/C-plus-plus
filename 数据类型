@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{ 
+    //1.字符型变量创建方式
+	char ch = 'a';
+	cout << ch << endl;
+	//2.字符型变量所占内存的大小    (C和C++中字符型变量只占用一个字节)
+	cout << "char字符型变量所占内存: " << sizeof(char) << endl;
+	//3.字符型变量常见错误
+	//char ch2 = "b"; //创建字符型变量的时候，要用单引号。
+	//char ch3 = 'abced'; //创建字符型变量的时候，单引号里面只能有一个字符。
+
+	//4.字符型变量对应ASCII编码
+	cout << (int)ch << endl;//将a强制转化为整形
+
+	return 0;
+	system("pause");
+}
+
+
+
+
