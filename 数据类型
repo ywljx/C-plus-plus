@@ -153,7 +153,7 @@ int main()
 	//5.布尔类型
 	bool flag = false;
 	cout << "请给布尔类型flag赋值：" << endl;
-	cin >> flag;
+	cin >> flag;//bool类型  只要时非0的值都代表真 输出都为1
 	cout << "布尔类型flag= " << flag << endl;
 	system("pause");
 	return 0;
